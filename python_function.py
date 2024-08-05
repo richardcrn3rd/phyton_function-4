@@ -1,11 +1,11 @@
 # Write a Python function called max_num()to find the Max of three numbers.
 
-def min_num(a,b,c):
-  return min([a,b,c])
+def max_num(a,b,c):
+  return max([a,b,c])
 
-print(min_num(1,2,3))
-print(min_num(100,50,1))
-print(min_num(15,30,2))
+print(max_num(1,2,3))
+print(max_num(100,50,1))
+print(max_num(15,30,2))
 
 # Write a Python function called mult_list()  to multiply all the numbers in a list.
 
@@ -81,3 +81,4 @@ def pascal(n):
 
 pascal(2)
 pascal(5)
+pascal(10)
